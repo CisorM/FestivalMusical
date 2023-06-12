@@ -1,0 +1,27 @@
+{
+  "name": "festivalmusic",
+  "version": "1.0.0",
+  "description": "Proyecto con gulp, sass y html",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CisorM/FestivalMusical.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Cesar Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CisorM/FestivalMusical/issues"
+  },
+  "homepage": "https://github.com/CisorM/FestivalMusical#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "sass": "^1.63.3"
+  }
+}
