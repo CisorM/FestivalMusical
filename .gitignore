@@ -1,0 +1,10 @@
+# Ignorar la carpeta node_modules
+node_modules/
+
+# Ignorar archivos específicos
+package-lock.json
+gulpfile.js
+package.json
+
+# Ignorar la carpeta src
+src/

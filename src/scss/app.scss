@@ -1,6 +1,14 @@
-$rojo: blue;
+/*------ FORMA ANTIGUA DE LLAMAR ARCHIVOS
 
-body
-{
-    background-color: $rojo;
-}
+@import 'base/variables';
+@import 'contenido/contenido';
+
+*/
+
+/* ----- FORMA ACTUAL -----*/
+
+@use 'base';
+@use 'layout';
+
+
+
